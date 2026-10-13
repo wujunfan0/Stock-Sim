@@ -23,6 +23,6 @@ How to run it locally:
 
 This was created as a coding project to practice advanced web development concepts like the canvas API, web audio API, and real time state management, huge thanks to the online developer community and tutorials as well as W3SCHOOLS for helping m understand core concepts required to complete this project!
 
-DEMO LINK:
+DEMO LINK:https://wujunfan0.github.io/Stock-Sim/
 
 Languages used: HTML, CSS, JavaScript
