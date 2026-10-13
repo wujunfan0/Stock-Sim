@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stock Simulator</title>
+<style>
+ body{
+ font-family:sans-serif;
+ margin:10px;
+   background-color:#ffffff;
+   color:#000000;
+  }
+  header{
+  border:1px solid #000;
+  padding:10px;
+ margin-bottom:10px;
+}
+  .container{
+  display:flex;
+  gap:10px;
+}
+  .column{
+  border:1px solid #000;
+    padding:10px;
+ flex:1;
+ }
+  .chart-box{
+  border:1px solid #000;
+ height:200px;
+   margin-top:10px;
+}
+ table,th,td{
+ border:1px solid #000;
+  border-collapse:collapse;
+  padding:5px;
+}
+ table{
+ width:100%;
+   margin-top:10px;
+ }
+</style>
+</head>
+ <body>
+
+ <header>
+  <h1>Stock Simulator</h1>
+   <div>Cash: $100000 | Portfolio: $0 | Total: $100000</div>
+ </header>
+
+<div class="container">
+
+ <div class="column">
+   <h2>Watchlist</h2>
+  <ul>
+ <li>AAPL - $182.50</li>
+  <li>TSLA - $245.10</li>
+ <li>NVDA - $875.30</li>
+  </ul>
+ </div>
+
+<div class="column" style="flex:2;">
+  <h2>Chart</h2>
+ <div>Symbol: AAPL</div>
+   <div class="chart-box">
+  Chart Placeholder
+ </div>
+ </div>
+
+ <div class="column">
+  <h2>Trade</h2>
+  <form>
+   <div>
+  <label>Symbol:</label><br>
+  <input type="text" value="AAPL">
+ </div>
+  <br>
+<div>
+ <label>Shares:</label><br>
+   <input type="number" value="1">
+ </div>
+ <br>
+  <button type="button">Buy</button>
+  <button type="button">Sell</button>
+  </form>
+ </div>
+
+</div>
+
+ <div style="border:1px solid #000; padding:10px; margin-top:10px;">
+ <h2>Portfolio Positions</h2>
+  <table>
+ <thead>
+   <tr>
+  <th>Symbol</th>
+<th>Shares</th>
+   <th>Price</th>
+  <th>Total</th>
+ </tr>
+ </thead>
+  <tbody>
+ <tr>
+  <td>AAPL</td>
+ <td>10</td>
+ <td>$182.50</td>
+   <td>$1825.00</td>
+ </tr>
+ </tbody>
+  </table>
+</div>
+
+ </body>
+</html>
